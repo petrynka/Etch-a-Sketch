@@ -16,8 +16,27 @@ h1{
     width: 750px;
     height: 80vh;
     margin: 30px auto;
+    border: 2px solid black;
 }
 
-div{
+.block{
     border: 1px solid black;
+}
+
+.btnContainer{
+    max-width: 350px;
+    margin: 10px auto;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(152, 170, 170);
+    border-radius: 15px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#reset{
+    margin-right: 15px;
 }
