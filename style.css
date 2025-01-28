@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 15px auto;
+    max-width: 350px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 750px;
+    height: 80vh;
+    margin: 30px auto;
+}
+
+div{
+    border: 1px solid black;
+}
