@@ -13,3 +13,12 @@ function addDivsGrid(num){
 }
 
 addDivsGrid(16);
+
+const blocks = document.querySelectorAll(".block");
+
+blocks.forEach(block => {
+    block.addEventListener("mouseenter", () => {
+        block.style.backgroundColor = "black"
+    });
+});
+
